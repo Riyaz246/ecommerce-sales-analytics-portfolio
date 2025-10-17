@@ -16,9 +16,9 @@ The data is from the `bigquery-public-data.thelook_ecommerce` public dataset ava
 ## Dashboard
 An interactive dashboard was created using Looker Studio to visualize the key findings. The dashboard provides insights into total revenue, top-performing products and customers, and realistic sales trends over time.
 
-**[View the Live Dashboard Here](PASTE YOUR LOOKER STUDIO LINK HERE)**
+**[View the Live Dashboard Here]**
 
 ## SQL Queries
-The SQL script used for the analysis, including the final `CREATE VIEW` statement that joins and cleans the data, can be found here:
+The SQL script used for the entire analysis can be found in the `sql_scripts` folder. This file includes data exploration, joining multiple tables, and the final `CREATE VIEW` statement that cleans the data and serves as the source for the dashboard.
 
 * **[`analysis_queries.sql`](sql_scripts/analysis_queries.sql)**
